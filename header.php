@@ -11,7 +11,8 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="description" content="Keywords">
 	<meta name="author" content="Name">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+	<meta name="viewport" content="width=device-width">
 
 	<!--=== LINK TAGS ===-->
 	<link rel="shortcut icon" href="<?php echo THEME_DIR; ?>/path/favicon.png" type="image/png" />
@@ -25,6 +26,7 @@
 	<?php wp_head(); ?>
 
 </head>
+
 <body <?php body_class(); ?>>
 
 <!-- HERE GOES YOUR HEADER MARKUP, LIKE LOGO, MENU, SOCIAL ICONS AND MORE -->
